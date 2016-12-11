@@ -1,6 +1,6 @@
-# vue-tmpl
+# axiosdemo
 
-> A Vue.js project
+> A demo of using axios with vue.js
 
 ## Build Setup
 
