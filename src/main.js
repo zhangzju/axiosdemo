@@ -1,12 +1,11 @@
 import Vue from 'vue'
-import axios from 'axios'
-import VueAxios from 'vue-axios'
+import Vuetify from 'vuetify'
 
-import GetAxios from './GetAxios.vue'
+import App from './App.vue'
 
-Vue.use(VueAxios, axios)
+Vue.use(Vuetify)
 
 new Vue({
   el: '#app',
-  render: h => h(GetAxios)
+  render: h => h(App)
 })
