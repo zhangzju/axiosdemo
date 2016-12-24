@@ -13,15 +13,12 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'App main Page'
     }
   },
   components: {
     Navbar,
     GetAxios
-  },
-  mounted () {
-  this.$vuetify.init()
   }
 }
 </script>

@@ -1,9 +1,9 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
+import MuseUI from 'muse-ui'
+import 'muse-ui/dist/muse-ui.css'
+Vue.use(MuseUI)
 
 import App from './App.vue'
-
-Vue.use(Vuetify)
 
 new Vue({
   el: '#app',
